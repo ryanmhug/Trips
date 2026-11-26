@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+
+<html><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Argentina &amp; Patagonia • Pocket Field Guide • 2026</title><meta name="app-build" content="2026-11-24-huemul"><link rel="icon" type="image/png" href="apple-touch-icon-v3.png"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-v3.png"><link rel="apple-touch-icon-precomposed" href="apple-touch-icon-v3.png"><meta name="apple-mobile-web-app-title" content="Argentina 2026"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#234238"><style>
+:root{--bg:#f7f3ea;--ink:#18231f;--muted:#5d665e;--green:#234238;--sage:#d9e2d2;--rust:#b56b42;--card:#fffdf7;--line:#ded4c2;--blue:#eef7ff;--gold:#fff6ed}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{position:sticky;top:0;z-index:20;background:rgba(247,243,234,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px}
+h1{font-size:20px;margin:0}.sub{font-size:12px;color:var(--muted);margin-top:3px}
+nav{display:flex;gap:8px;overflow:auto;margin-top:10px}nav a{white-space:nowrap;text-decoration:none;color:white;background:var(--green);padding:8px 11px;border-radius:999px;font-size:13px;font-weight:800}
+main{padding:14px;max-width:860px;margin:auto}.hero{background:linear-gradient(135deg,#234238,#5b744e);color:white;border-radius:20px;padding:16px;margin-bottom:14px}.hero h2{margin:0 0 8px;font-size:24px}
+.top-notes{font-size:13px;margin:8px 0}.top-notes summary{font-weight:850;cursor:pointer}.trip-progress{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:12px;margin-top:10px}.progress-bar{height:10px;background:rgba(255,255,255,.25);border-radius:999px;overflow:hidden;margin:7px 0}.progress-fill{height:100%;width:11%;background:#e9dcc4}.progress-label{font-size:12px;color:#eef6ef;font-weight:750}
+.day-card{display:block;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px;margin-bottom:14px;box-shadow:0 3px 12px rgba(0,0,0,.04)}.day-card>summary{cursor:pointer;list-style:none;font-size:22px;font-weight:900;color:var(--ink)}.day-card>summary::-webkit-details-marker{display:none}.day-card>summary:before{content:"▸";display:inline-block;margin-right:8px;color:var(--rust);transition:transform .15s}.day-card[open]>summary:before{transform:rotate(90deg)}
+.mission{line-height:1.45;margin:12px 0 8px}.chips{margin:8px 0}.chip,.badge{display:inline-block;margin:3px 4px 0 0;padding:5px 8px;border-radius:999px;background:#f3efe4;border:1px solid var(--line);font-size:12px;color:var(--muted);font-weight:800}.badge{margin-left:6px;background:#fff0dc;color:#8a551c}
+.summary{font-size:13px;background:#f8f5ec;border-left:3px solid var(--rust);padding:8px 10px;margin:10px 0;border-radius:8px;line-height:1.35}.timeline-section{margin:20px 0 8px;font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--rust);font-weight:950}
+.event-card{background:#fffdf7;border:1px solid var(--line);border-radius:16px;padding:13px;margin:9px 0 12px;box-shadow:0 2px 8px rgba(0,0,0,.03)}.event-card.hotel{background:var(--blue);border-color:#bdd4e8}.event-card.event{background:var(--gold);border-color:#e3be73}.event-card.spa{background:#f4eefb;border-color:#d6c4eb}
+.event-time{font-size:13px;color:var(--rust);font-weight:950;text-transform:uppercase;letter-spacing:.04em;margin-bottom:5px}.event-title,.event-title a{font-size:20px;line-height:1.18;font-weight:900;color:var(--green)}.event-meta,.hike-meta{display:block;margin-top:6px;font-size:13px;color:var(--muted);line-height:1.35}.action-row{margin-top:9px}.action-row a{display:inline-block;margin:4px 5px 0 0;padding:7px 10px;border-radius:999px;background:var(--sage);border:1px solid var(--line);font-size:12px;text-decoration:none;color:var(--green);font-weight:850}
+.optional-group{margin:16px 0;padding:14px;border:1px solid var(--line);border-radius:16px;background:#fffaf0}.optional-group h3{margin:0 0 8px;color:var(--rust);font-size:15px;text-transform:uppercase;letter-spacing:.08em}
+.decision-block{background:#edf6e9;border:1px solid #b7d5aa;border-radius:16px;padding:14px;margin:14px 0}.decision-block h3{margin-top:0;color:var(--green);font-size:15px;text-transform:uppercase;letter-spacing:.08em}.decision-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.decision{background:#fffdf7;border:1px solid var(--line);border-radius:14px;padding:12px}.decision h4{margin:0 0 6px;font-size:17px}.decision p{font-size:14px;margin:6px 0;line-height:1.35}
+.packing-list{margin:8px 0 0 18px;padding:0}.packing-list li{margin:6px 0;line-height:1.35}.footer{font-size:12px;color:var(--muted);text-align:center;padding:20px}@media(max-width:600px){main{padding:10px}.day-card,.hero{border-radius:16px;padding:14px}.event-title,.event-title a{font-size:19px}.decision-grid{grid-template-columns:1fr}}
+.route-card{background:#eef7ff;border:1px solid #bdd4e8;border-radius:16px;padding:14px;margin:14px 0}
+.route-card h3{margin:0 0 8px;color:var(--green);font-size:15px;text-transform:uppercase;letter-spacing:.08em}
+.route-list{font-size:13px;line-height:1.45;color:var(--muted);margin:8px 0 0;padding-left:18px}.route-list li{margin:4px 0}
+
+/* Cleaner day layout */
+.day-card{padding:0;overflow:hidden;box-shadow:none}
+.day-card>summary{padding:15px 17px;font-size:18px;background:var(--card)}
+.day-inner{padding:16px 18px 18px}
+.day-heading{font-size:25px;line-height:1.15;margin:0 0 5px;color:var(--green)}
+.day-overview{font-size:13px;color:var(--muted);line-height:1.45;margin:0 0 14px}
+.day-section{padding:13px 0;border-top:1px solid var(--line)}
+.day-section:first-of-type{border-top:0}
+.day-section h3{font-size:17px;line-height:1.25;margin:2px 0 5px;color:var(--ink)}
+.day-section .event-time{margin:0 0 3px;font-size:11px}
+.day-section ul{margin:5px 0 0 18px;padding:0}
+.day-section li{margin:4px 0;color:var(--muted);font-size:13px;line-height:1.4}
+.day-section a{color:var(--green);text-underline-offset:2px}
+header nav a.active{background:var(--rust)}
+@media(max-width:600px){.day-inner{padding:14px}.day-heading{font-size:22px}}
+
+:root{
+ --page:#f4efe6;--card:#fffdf8;--ink:#1f2924;--muted:#66716b;--line:#d8d4ca;
+ --green:#365b4a;--rust:#a95738;--navbg:#fffdf8;
+}
+body{background:var(--page);color:var(--ink);transition:background .2s,color .2s}
+.day-card,.trip-notes,.decision-block,.optional-group{background:var(--card);color:var(--ink)}
+header nav{display:flex;flex-wrap:wrap;gap:7px}
+header nav a[data-day]{cursor:pointer;position:relative;z-index:5}
+.theme-toggle{
+ border:1px solid rgba(255,255,255,.32);border-radius:999px;padding:8px 12px;
+ background:transparent;color:white;font:inherit;font-weight:800;cursor:pointer;margin-top:8px
+}
+body.dark{
+ --page:#111713;--card:#1b241f;--ink:#edf2ee;--muted:#b5c0b8;--line:#344139;
+ --green:#9cc8ad;--rust:#d47b59;--navbg:#1b241f;
+}
+body.dark header{background:#17231d}
+body.dark .day-card>summary{background:#1b241f;color:#edf2ee}
+body.dark .day-section h3{color:#edf2ee}
+body.dark .day-section a{color:#a9d8ba}
+body.dark .footer{color:#aab5ae}
+
+/* Compact trip tracker */
+.progress-wrap{padding:7px 10px!important;margin:7px 0 10px!important;border-radius:10px!important}
+.progress-wrap .progress-head{margin-bottom:4px!important}
+.progress-wrap h3{font-size:11px!important;margin:0!important}
+.progress-wrap p,.progress-wrap span{font-size:9px!important;line-height:1.15!important}
+.progress{height:4px!important;margin-top:4px!important}
+.progress span{height:4px!important}
+
+/* Persistent Trip Notes panel */
+.persistent-notes-panel{display:none;position:sticky;top:74px;z-index:40;max-width:760px;
+ margin:8px auto 12px;padding:12px 14px!important;border:1px solid var(--line);
+ border-radius:13px;background:var(--card);box-shadow:0 10px 28px rgba(0,0,0,.14)}
+.persistent-notes-panel.notes-open{display:block}
+header nav a[data-panel]{background:rgba(255,255,255,.12)}
+header nav a[data-panel].active{background:var(--rust)}
+@media(max-width:600px){.persistent-notes-panel{top:112px;margin:6px 12px 10px}}
+
+#tripProgressLine{position:fixed;top:0;left:0;right:0;height:3px;z-index:99999;
+background:rgba(100,100,100,.14);pointer-events:none}
+#tripProgressFill{height:3px;width:0;background:#c6a66a;transition:width .3s ease}
+body.dark #tripProgressLine{background:rgba(255,255,255,.10)}
+body.dark #tripProgressFill{background:#d9bd83}
+
+/* v6: minimal status line + visible utility controls */
+#tripProgressLine{
+  display:flex!important;
+  align-items:center!important;
+  gap:8px!important;
+  height:18px!important;
+  padding:0 10px!important;
+  background:rgba(250,248,242,.92)!important;
+  backdrop-filter:blur(8px);
+}
+#tripProgressLabel{
+  display:block!important;
+  flex:0 0 auto!important;
+  font-size:8px!important;
+  line-height:1!important;
+  font-weight:800!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  color:#69736d!important;
+  white-space:nowrap!important;
+}
+#tripProgressFill{
+  position:absolute!important;
+  left:72px!important;
+  right:auto!important;
+  bottom:6px!important;
+  height:2px!important;
+  background:#c6a66a!important;
+}
+#tripProgressLine::after{
+  content:"";
+  position:absolute;
+  left:72px;right:10px;bottom:6px;
+  height:2px;
+  background:rgba(80,90,84,.15);
+  z-index:-1;
+}
+body.dark #tripProgressLine{background:rgba(17,23,19,.94)!important}
+body.dark #tripProgressLabel{color:#c4cec7!important}
+body.dark #tripProgressLine::after{background:rgba(255,255,255,.16)}
+
+header nav a.utility-button,
+header nav a[data-panel="trip-notes"],
+#themeToggle.utility-button,
+#themeToggle{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-height:34px!important;
+  padding:8px 14px!important;
+  border-radius:999px!important;
+  border:1px solid rgba(255,255,255,.72)!important;
+  background:#fff!important;
+  color:#254739!important;
+  font-weight:900!important;
+  box-shadow:0 2px 10px rgba(0,0,0,.18)!important;
+  opacity:1!important;
+}
+header nav a[data-panel="trip-notes"].active{
+  background:#d7b170!important;
+  color:#1d332a!important;
+}
+#themeToggle{
+  margin:8px 0 0!important;
+}
+body.dark header nav a[data-panel="trip-notes"],
+body.dark #themeToggle{
+  background:#edf3ee!important;
+  color:#16261f!important;
+  border-color:#edf3ee!important;
+}
+
+/* v7: vertically center Trip Status with the progress track */
+#tripProgressLine{
+  display:flex!important;
+  align-items:center!important;
+  gap:8px!important;
+}
+#tripProgressLabel{
+  position:relative!important;
+  top:0!important;
+  margin:0!important;
+  line-height:1!important;
+}
+#tripProgressLine::after{
+  top:50%!important;
+  bottom:auto!important;
+  transform:translateY(-50%)!important;
+}
+#tripProgressFill{
+  top:50%!important;
+  bottom:auto!important;
+  transform:translateY(-50%)!important;
+}
+
+/* v8: traveler pass */
+
+/* Give the whole interface breathing room below browser chrome */
+body{padding-top:34px!important}
+#tripProgressLine{top:16px!important;left:14px!important;right:14px!important;width:auto!important;border-radius:999px!important}
+
+/* Header controls: nav left, icon-only theme switch right */
+.header-controls{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:14px!important;
+  width:100%!important;
+}
+.header-controls nav{
+  flex:1 1 auto!important;
+  min-width:0!important;
+}
+.theme-switch-wrap{
+  flex:0 0 auto!important;
+  display:flex!important;
+  align-items:center!important;
+}
+#themeToggle.theme-switch{
+  position:relative!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  width:58px!important;
+  height:30px!important;
+  min-height:30px!important;
+  padding:0 7px!important;
+  margin:0!important;
+  border-radius:999px!important;
+  border:1px solid rgba(255,255,255,.5)!important;
+  background:rgba(255,255,255,.18)!important;
+  color:#fff!important;
+  box-shadow:none!important;
+  cursor:pointer!important;
+}
+.theme-switch .theme-icon{
+  position:relative!important;
+  z-index:2!important;
+  font-size:13px!important;
+  line-height:1!important;
+  width:14px!important;
+  text-align:center!important;
+}
+.theme-switch .theme-knob{
+  position:absolute!important;
+  z-index:1!important;
+  top:3px!important;
+  left:3px!important;
+  width:22px!important;
+  height:22px!important;
+  border-radius:50%!important;
+  background:#fff!important;
+  transition:transform .2s ease!important;
+  box-shadow:0 1px 4px rgba(0,0,0,.22)!important;
+}
+body.dark .theme-switch .theme-knob{transform:translateX(28px)!important}
+body.dark #themeToggle.theme-switch{
+  background:rgba(255,255,255,.14)!important;
+  border-color:rgba(255,255,255,.45)!important;
+}
+
+/* Trip Notes hierarchy */
+.home-base-block{
+  margin:7px 0 10px!important;
+  font-size:13px!important;
+  line-height:1.45!important;
+}
+.home-base-block>div:first-child{font-size:14px!important}
+.home-base-block>div:nth-child(2),
+.home-base-block>div:nth-child(3){color:var(--muted)!important}
+
+/* All links become a clearly visible light blue in dark mode */
+body.dark a,
+body.dark .day-section a,
+body.dark .persistent-notes-panel a{
+  color:#8ecbff!important;
+}
+
+/* No secondary day-summary strip */
+.day-overview,.summary{display:none!important}
+
+@media(max-width:600px){
+  body{padding-top:30px!important}
+  #tripProgressLine{top:12px!important;left:10px!important;right:10px!important}
+  .header-controls{align-items:flex-start!important}
+  .theme-switch-wrap{padding-top:2px!important}
+}
+
+/* v9: dark nav legibility + single-click Trip Notes */
+body.dark header nav a[data-day],
+body.dark header nav a[data-panel],
+body.dark header nav a.utility-button{
+  color:#fff!important;
+}
+#trip-notes.persistent-notes-panel{
+  cursor:default!important;
+}
+#trip-notes.persistent-notes-panel > summary{display:none!important}
+
+/* v10: Trip Notes matches weekday pills */
+header nav a[data-panel="trip-notes"]{
+  background:rgba(255,255,255,.08)!important;
+  color:inherit!important;
+  border:1px solid rgba(255,255,255,.18)!important;
+  box-shadow:none!important;
+  min-height:unset!important;
+  padding:8px 12px!important;
+  font-weight:800!important;
+}
+header nav a[data-panel="trip-notes"].active{
+  background:var(--rust)!important;
+  color:#fff!important;
+  border-color:transparent!important;
+}
+body.dark header nav a[data-panel="trip-notes"]{
+  background:rgba(255,255,255,.08)!important;
+  color:#fff!important;
+  border-color:rgba(255,255,255,.18)!important;
+}
+body.dark header nav a[data-panel="trip-notes"].active{
+  background:var(--rust)!important;
+  color:#fff!important;
+}
+
+/* Close control for notes panel */
+#trip-notes{
+  position:sticky;
+}
+.trip-notes-close{
+  position:absolute;
+  top:9px;
+  right:10px;
+  width:30px;
+  height:30px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0;
+  border:0;
+  border-radius:50%;
+  background:rgba(80,90,84,.10);
+  color:var(--ink);
+  font-size:22px;
+  line-height:1;
+  font-weight:500;
+  cursor:pointer;
+}
+.trip-notes-close:hover{background:rgba(80,90,84,.18)}
+body.dark .trip-notes-close{
+  background:rgba(255,255,255,.10);
+  color:#fff;
+}
+body.dark .trip-notes-close:hover{background:rgba(255,255,255,.18)}
+
+/* Argentina adaptation of Missoula v11 */
+header nav{flex-wrap:nowrap!important;overflow-x:auto!important;scrollbar-width:thin;padding-bottom:4px}
+header nav a[data-day]{min-width:64px;text-align:center}
+.header-controls{align-items:center}
+.day-card{scroll-margin-top:154px}
+.day-section ul{padding-left:0;margin-left:18px}
+.day-section li{font-size:14px;line-height:1.5}
+.event-time{color:var(--rust)!important;font-weight:900}
+.trip-keyline{font-size:12px;line-height:1.55;margin:0 0 8px;color:var(--muted)}
+.status-pill{display:inline-block;border-radius:999px;padding:3px 8px;font-size:10px;font-weight:900;letter-spacing:.03em;border:1px solid var(--line);margin-left:5px;vertical-align:middle;background:var(--sage);color:#264c36}
+.status-pill.pending{background:#fff0df;color:#925724;border-color:#f0c99d}
+.status-pill.optional{background:#eef4f9;color:#456b84;border-color:#c8ddeb}
+.note-strip{background:#eef4ed;border-left:3px solid #66866b;padding:10px 12px;border-radius:9px;font-size:13px;line-height:1.5;margin:8px 0 12px}
+.quick-links{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}
+.quick-links a{border:1px solid var(--line);border-radius:999px;background:var(--sage);color:#1d4232;padding:8px 11px;font-size:12px;font-weight:850;text-decoration:none}
+.pending-panel{padding:12px;border-radius:14px;border:1px solid #dfc199;background:#fff9ec;margin-top:14px}
+.pending-panel h3{margin:0 0 6px;font-size:14px;color:#865027}
+.pending-panel li{margin:6px 0;font-size:13px;line-height:1.4}
+.day-heading small{font-size:13px;font-weight:650;color:var(--muted);display:block;margin-top:3px}
+.day-card.is-past>summary{opacity:.7}
+.day-card.is-past>summary:after{content:' · archived';font-size:10px;color:var(--muted);font-weight:650;letter-spacing:.03em}
+body.dark .note-strip{background:#29392f;color:#e5f0e7}
+body.dark .pending-panel{background:#352c23;border-color:#6c4c29}
+body.dark .pending-panel h3{color:#f1c58a}
+body.dark .status-pill{color:#163c2e}
+body.dark .status-pill.pending{color:#593419}
+body.dark .status-pill.optional{color:#24465d}
+body.dark .quick-links a{color:#d6f1df;background:#314638}
+body.dark .day-heading small{color:var(--muted)}
+@media(max-width:650px){header nav a[data-day]{font-size:12px;padding:8px 10px}.day-inner{padding:12px 16px 18px}.day-heading{font-size:23px}}
+
+/* v1 public release: reliable dark mode with all itinerary surfaces themed */
+body.dark .event-card,
+body.dark .event-card.hotel,
+body.dark .event-card.event,
+body.dark .event-card.spa,
+body.dark .route-card,
+body.dark .note-strip,
+body.dark .pending-panel,
+body.dark .decision,
+body.dark .optional-group,
+body.dark .top-notes,
+body.dark .persistent-notes-panel {
+  background:var(--card)!important;
+  color:var(--ink)!important;
+  border-color:var(--line)!important;
+}
+body.dark .event-title,
+body.dark .event-title a,
+body.dark .day-heading,
+body.dark .day-section h3,
+body.dark .day-section li,
+body.dark .event-meta,
+body.dark .hike-meta,
+body.dark .summary {color:var(--ink)!important}
+body.dark .summary,
+body.dark .chip {background:#27342c!important;color:var(--ink)!important}
+body.dark .event-time,
+body.dark .timeline-section {color:var(--rust)!important}
+body.dark .action-row a {background:#314638;color:#e4f7eb;border-color:#4e6a57}
+
+.app-update-controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:8px 0 11px}.app-update-button{cursor:pointer;background:var(--green);color:#fff;border:0;border-radius:8px;padding:9px 12px;font-size:12px;font-weight:800}.app-update-controls span{color:var(--muted);font-size:11px}body.dark .app-update-button{background:#406450;color:#fff}
+
+/* Argentina v2: compact itinerary headers */
+.day-card>summary{
+  position:relative;display:block!important;padding:13px 36px 13px 14px!important;
+  background:var(--card);font-size:inherit!important;list-style:none;
+}
+.day-card>summary:before{display:none!important;content:none!important}
+.day-card>summary:after{
+  content:"⌄"!important;position:absolute;right:13px;top:50%;transform:translateY(-50%);
+  color:var(--muted);font-size:20px;font-weight:500;opacity:.8;letter-spacing:0;
+}
+.day-card[open]>summary:after{content:"⌃"!important}
+.day-card.is-past>summary:after{content:"⌄"!important}
+.day-card.is-past[open]>summary:after{content:"⌃"!important}
+.day-summary-grid{display:flex;align-items:center;gap:11px;width:100%;min-width:0}
+.day-summary-date{display:flex;flex:0 0 82px;flex-direction:column;gap:2px;min-width:0}
+.day-date-label{font-size:10px;letter-spacing:.055em;line-height:1.15;font-weight:750;color:var(--muted)}
+.day-weekday{font-size:17px;line-height:1.1;font-weight:650;color:#9b9e96}
+.day-summary-title{
+  flex:1;min-width:0;font-size:clamp(14px,3.8vw,18px);font-weight:780;
+  line-height:1.24;color:var(--ink);letter-spacing:-.025em;white-space:normal;
+  overflow-wrap:normal;
+}
+body.dark .day-weekday{color:#909e92}
+body.dark .day-summary-title{color:var(--ink)}
+body.dark .day-date-label{color:var(--muted)}
+.day-card.is-past>summary{opacity:.72}
+@media(min-width:680px){.day-summary-date{flex-basis:107px}.day-weekday{font-size:19px}.day-summary-title{font-size:19px}}
+@media(max-width:370px){.day-summary-date{flex-basis:75px}.day-summary-grid{gap:7px}.day-summary-title{font-size:14px}}
+/* Trip status bar and theme switch on same line */
+body{padding-top:54px!important}
+#tripProgressLine{
+  top:10px!important;left:10px!important;right:10px!important;height:34px!important;
+  padding:0 8px 0 11px!important;display:flex!important;align-items:center!important;gap:9px!important;
+  border-radius:999px!important;pointer-events:auto!important;z-index:100000!important;
+}
+#tripProgressLabel{
+  position:static!important;flex:0 0 auto!important;font-size:9px!important;
+  white-space:nowrap!important;
+}
+#tripProgressTrack{
+  height:3px;min-width:20px;flex:1 1 auto;background:rgba(80,90,84,.18);
+  border-radius:99px;overflow:hidden;position:relative;
+}
+#tripProgressFill{
+  position:static!important;display:block;height:100%!important;
+  width:0;transform:none!important;left:auto!important;top:auto!important;
+  transition:width .3s ease;
+}
+#tripProgressLine::after{display:none!important}
+#tripProgressLine .theme-switch-wrap{flex:0 0 auto!important;display:flex!important;align-items:center!important;padding:0!important}
+#tripProgressLine #themeToggle.theme-switch{
+  width:54px!important;height:26px!important;min-height:26px!important;padding:0 6px!important;
+  margin:0!important;display:inline-flex!important;background:#e9ede7!important;
+  color:#31543f!important;border:1px solid #bac6b9!important;box-shadow:none!important;
+}
+#tripProgressLine .theme-switch .theme-knob{
+  width:20px!important;height:20px!important;top:2px!important;left:2px!important;
+}
+body.dark #tripProgressLine #themeToggle.theme-switch{
+  color:#fff!important;background:#364b3d!important;border-color:#6b8570!important;
+}
+body.dark #tripProgressLine .theme-switch .theme-knob{transform:translateX(28px)!important}
+body.dark #tripProgressTrack{background:rgba(255,255,255,.20)}
+@media(max-width:600px){
+ body{padding-top:51px!important}
+ #tripProgressLine{top:9px!important;left:9px!important;right:9px!important}
+ .persistent-notes-panel{top:110px}
+}
+
+/* v2.1: operational itinerary, zero bold body bullets */
+.day-section .detail-list{margin:5px 0 0;padding:0}
+.day-section .detail-line{font-size:14px;line-height:1.45;margin:5px 0;color:var(--muted);font-weight:400!important}
+.day-section .detail-line b,.day-section .detail-line strong{font-weight:400!important}
+.day-section .quick-links{margin-top:7px}
+.day-section .dinner-option{padding:7px 0 8px;border-top:1px solid var(--line)}
+.day-section .dinner-option:first-of-type{border-top:0}
+.day-section .dinner-option .detail-line{font-weight:600!important;color:var(--ink)}
+.day-section .dinner-option .quick-links{margin:0 0 2px}
+.day-section .quick-links a{padding:7px 10px}
+
+/* v2.2: real itinerary headings and action chips */
+.day-section h3{font-weight:750}
+.day-section .quick-links a{display:inline-flex;align-items:center;min-height:30px}
+.dinner-section h3{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.dinner-status{font-size:11px;line-height:1.2;color:var(--muted);font-weight:500}
+
+.day-options{margin-top:1rem;border-top:1px solid currentColor}.day-options>summary{cursor:pointer;padding:.85rem 0;font-weight:700;display:list-item}
+.day-weather{font-size:.77rem;line-height:1.4;margin:.25rem 0 .7rem}.day-weather a{color:inherit}</style><meta content="#234238" name="theme-color"/></head>
+<body><div id="tripProgressLine"><span id="tripProgressLabel">Trip Status</span><span id="tripProgressTrack"><span id="tripProgressFill"></span></span><div class="theme-switch-wrap"><button aria-label="Toggle dark mode" aria-pressed="false" class="theme-switch" id="themeToggle" type="button"><span aria-hidden="true" class="theme-icon sun-icon">☀</span><span aria-hidden="true" class="theme-icon moon-icon">☾</span><span aria-hidden="true" class="theme-knob"></span></button></div></div><header><h1>Argentina + Patagonia</h1><div class="sub">Buenos Aires • El Calafate • El Chaltén  |  Nov 28 – Dec 9, 2026</div>
+<div class="header-controls"><nav><a data-day="day1" href="#day1" title="Saturday, November 28">Sat 28</a><a data-day="day2" href="#day2" title="Sunday, November 29">Sun 29</a><a data-day="day3" href="#day3" title="Monday, November 30">Mon 30</a><a data-day="day4" href="#day4" title="Tuesday, December 1">Tue 1</a><a data-day="day5" href="#day5" title="Wednesday, December 2">Wed 2</a><a data-day="day6" href="#day6" title="Thursday, December 3">Thu 3</a><a data-day="day7" href="#day7" title="Friday, December 4">Fri 4</a><a data-day="day8" href="#day8" title="Saturday, December 5">Sat 5</a><a data-day="day9" href="#day9" title="Sunday, December 6">Sun 6</a><a data-day="day10" href="#day10" title="Monday, December 7">Mon 7</a><a data-day="day11" href="#day11" title="Tuesday, December 8">Tue 8</a><a data-day="day12" href="#day12" title="Wednesday, December 9">Wed 9</a><a class="utility-button notes-button" data-panel="trip-notes" href="#trip-notes">Trip Notes</a></nav></div></header><section class="top-notes persistent-notes-panel" id="trip-notes"><button aria-label="Close Trip Notes" class="trip-notes-close" id="tripNotesClose" type="button">×</button><h3>ℹ️ Trip Notes</h3><div class="app-update-controls"><button type="button" id="refreshItinerary" class="app-update-button">↻ Check for updates</button><span id="appUpdateStatus" aria-live="polite">Latest version checks automatically when opened.</span></div><p><b>Chicago:</b> Riley travels with you to Chicago and stays with Jenna’s parents during the Argentina trip.</p><p><b>Travelers:</b> Two travelers • Local times shown • Argentina is four hours ahead of Denver in late November/December.</p><p><b>United flights:</b> Premium Plus on both long-haul legs • ORD ⇄ IAH ⇄ EZE.</p><p><b>Argentina domestic flights:</b> Aerolíneas Argentinas • AEP ⇄ FTE. <b>Important:</b> Buenos Aires domestic flights use AEP; international flights use EZE.</p><p><b>Hotels:</b> Palacio Duhau - Park Hyatt Buenos Aires (Nov 29–30, confirmed); Patagonia Queen (Nov 30–Dec 2); Chaltén Camp (Dec 2–5, paid); Ayres de Calafate (Dec 5–6); Casa Joseph (Dec 6–8). Booking references are intentionally excluded from this public itinerary.</p><p><b>Huemul transfers:</b> Booked for both travelers. USD 545 total: hotel transfers USD 400, dinner round trip USD 40, Río Eléctrico outbound USD 50 plus town-to-camp return USD 20, Laguna Torre round trip USD 35. Pay the driver directly in USD cash for each transfer. Luggage capacity confirmed. Coordinate pickup times and weather changes on WhatsApp with about 24 hours’ notice.</p><p><b>Diet:</b> Sin TACC (sin gluten), dietary restriction rather than allergy. Confirm meals, sauces, and packed hiking lunches. Chaltén Camp questionnaire submitted. Passports can be photographed at check-in; no advance copies needed. Camp confirmed gluten-free meals and packed lunches for Dec 3 and 4.</p><p><b>Dining reservations:</b> Campobravo Puerto Madero Nov 29 at 8 PM (two, indoors); The Asadores Dec 2 at 6:30 PM; Niño Gordo Dec 6 at 7 PM; El Preferido Dec 7 at 7 PM.</p><p><b>Park passes:</b> Purchased: two 3-day Los Glaciares Flexipasses (General), ARS 100,000 per person / ARS 200,000 total. First visit Dec 1, 2026; remaining visits planned for Dec 3 and 4. Carry the saved tickets and valid passports.</p><div class="quick-links"><a href="https://drive.google.com/file/d/1edIKFsyZBXqDJPZOM3Q1dYz3-xC3eoA7/view?usp=drivesdk" rel="noopener" target="_blank">Open park passes &amp; barcode</a></div><p class="trip-keyline">Private Google Drive PDF · shared with both travelers; sign in to your authorized Google account. Save it offline before visiting the park; the ticket barcode is in the original PDF.</p><details class="booking-documents"><summary>Booking documents · private access</summary><p class="trip-keyline">Shared with both travelers. Sign in to your authorized Google account. Download PDFs for offline access before travel. Email copies retain original wording; updated schedules appear before older booking terms.</p><div class="quick-links"><a href="https://drive.google.com/file/d/1j1jN8uXjz17DHbzaOj1Xdx6PkiPYNeFC/view?usp=drivesdk" rel="noopener" target="_blank">United flights - latest ticket issued November 14</a><a href="https://drive.google.com/file/d/1v5P6oufUObtwXBVhCYWcjePjl9RS63BH/view?usp=drivesdk" rel="noopener" target="_blank">Southwest - November 24 Denver to Midway</a><a href="https://drive.google.com/file/d/1r0mGhpC1nZr8dC41MG21NtrEePtFs3dx/view?usp=drivesdk" rel="noopener" target="_blank">Southwest - December 9 Midway to Denver</a><a href="https://drive.google.com/file/d/1uqsQHlN9jqoefDFie5-Br7Cv-5oR4-Yi/view?usp=drivesdk" rel="noopener" target="_blank">Aerolineas - latest schedule and original booking</a><a href="https://drive.google.com/file/d/1oK_198cXVI6cHjFnosJjdvrMQXXPe9Hc/view?usp=drivesdk" rel="noopener" target="_blank">Patagonia Queen - November 30 to December 2</a><a href="https://drive.google.com/file/d/1f9stuE387bSvCkFU7-FzMwfJ5HokFTKp/view?usp=drivesdk" rel="noopener" target="_blank">Chalten Camp - paid confirmation December 2-5</a><a href="https://drive.google.com/file/d/14DoeuW2ZLfr0154PIoYxcs_M7MOE7PMS/view?usp=drivesdk" rel="noopener" target="_blank">Campobravo Puerto Madero - November 29</a><a href="https://drive.google.com/file/d/1i4KtXXLLnP6_uq36Kq0wgEs8bim81us8/view?usp=drivesdk" rel="noopener" target="_blank">The Asadores - December 2</a><a href="https://drive.google.com/file/d/1h4eMcqVNKoWxWu0PCRoR-pEOBv1wd6bS/view?usp=drivesdk" rel="noopener" target="_blank">Nino Gordo - December 6 and dietary note</a><a href="https://drive.google.com/file/d/1DaljVlqYUiq9dw_T5kZ0cJZNHYqJ1GzE/view?usp=drivesdk" rel="noopener" target="_blank">El Preferido - updated reservation December 7</a><a href="https://drive.google.com/file/d/1tpYdvCwUv6mySJCiy8EVIxf-ByuADBrh/view?usp=drivesdk" rel="noopener" target="_blank">Ayres de Calafate - original hotel voucher</a><a href="https://drive.google.com/file/d/17MxUy1AHaOsMYrz8Y07Nn6cqrwE9c_0R/view?usp=drivesdk" rel="noopener" target="_blank">Hielo and Aventura - original minitrekking voucher</a><a href="https://drive.google.com/file/d/1dhZ_RTGowOlfle7f2Pk0TrQ2zD4Gs1aj/view?usp=drivesdk" rel="noopener" target="_blank">Chalten Camp - original payment receipt</a><a href="https://drive.google.com/file/d/11nrIqd9V7nUwGBmhLazP-EjE-aO6FXCN/view?usp=drivesdk" rel="noopener" target="_blank">Huemul - WhatsApp booking reference</a></div><p class="trip-keyline">Park passes and barcode: use the park-pass button above. Huemul is a reference sheet from WhatsApp confirmations, not a supplier voucher. Casa Joseph: original voucher available. Credit card payment in USD with no surcharge and free post-checkout luggage storage until evening confirmed Nov 20.</p><div class="quick-links"><a href="https://drive.google.com/file/d/1MLBkIER7HR6nK867qUAg71fO0uLJxMtv/view?usp=drivesdk" rel="noopener" target="_blank">Original booking voucher</a></div></details><p><b>Hotel note:</b> Park Hyatt booked for Nov 29–30. King preference noted, subject to availability; current confirmed room has two twin beds. Hyatt cancellation deadline: Nov 28, 11:59 PM hotel time, otherwise one-night fee.</p><div class="quick-links"><a href="https://drive.google.com/file/d/1ZmKOnSKCpx2bgBUDffhWzgGHM6ytbvh2/view?usp=drivesdk" rel="noopener" target="_blank">Park Hyatt - original booking confirmation</a></div><div class="quick-links"><a href="https://ventaweb.apn.gob.ar/" rel="noopener" target="_blank">Park passes</a><a href="https://www.united.com/en/us/" rel="noopener" target="_blank">United</a><a href="https://www.alltrails.com/trail/argentina/santa-cruz/el-pilar-laguna-de-los-tres-el-chalten" rel="noopener" target="_blank">AllTrails Fitz Roy</a><a href="https://www.alltrails.com/trail/argentina/santa-cruz/sendero-a-laguna-torre" rel="noopener" target="_blank">AllTrails Laguna Torre</a></div></section>
+<main><details class="day-card" data-date="2026-11-28" id="day1"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">NOV 28</span><span class="day-weekday">Saturday</span></span><span class="day-summary-title">Fly to Buenos Aires</span></span></summary><div class="day-inner"><h2 class="day-heading">Fly to Buenos Aires</h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><section class="day-section"><div class="event-time">4:07–7:10 PM</div><h3>UA714 · ORD → IAH</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1j1jN8uXjz17DHbzaOj1Xdx6PkiPYNeFC/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-line">Seats: 12D / 12F. Houston connection: 1 hr 20 min.</div><div class="quick-links"><a href="https://www.united.com/en/us/flightstatus" target="_blank" rel="noopener">United flight status</a></div></section><section class="day-section"><div class="event-time">8:30 PM</div><h3>UA819 · IAH → EZE</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1j1jN8uXjz17DHbzaOj1Xdx6PkiPYNeFC/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-line">Arrives Nov 29 at 9:20 AM.</div><div class="quick-links"><a href="https://www.united.com/en/us/flightstatus" target="_blank" rel="noopener">United flight status</a></div></section></div></details><details class="day-card" data-date="2026-11-29" id="day2"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">NOV 29</span><span class="day-weekday">Sunday</span></span><span class="day-summary-title">Arrive in Buenos Aires</span></span></summary><div class="day-inner"><h2 class="day-heading">Arrive in Buenos Aires</h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><section class="day-section"><div class="event-time">9:20 AM</div><h3>Arrive at EZE</h3><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Ezeiza%20International%20Airport%20Buenos%20Aires" rel="noopener" target="_blank">Airport location</a></div></section><section class="day-section"><div class="event-time">Arrival</div><h3>Uber to Park Hyatt</h3><div class="detail-line">Request an Uber to Park Hyatt after collecting bags and clearing customs.</div></section><section class="day-section"><div class="event-time">3:00 PM</div><h3>Check in: Palacio Duhau - Park Hyatt Buenos Aires<span class="status-pill">Confirmed</span></h3><div class="detail-line">2 Twin Beds Deluxe · two adults · 35,000 World of Hyatt points. King preference noted, subject to availability; twin room currently confirmed. Early check-in requested, subject to availability. Front desk can store bags and guests can use the spa while waiting. Standard check-in 3 PM; checkout noon.</div><div class="quick-links"><a href="https://drive.google.com/file/d/1ZmKOnSKCpx2bgBUDffhWzgGHM6ytbvh2/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Avenida%20Alvear%201661%2C%20Buenos%20Aires%2C%20Argentina" rel="noopener" target="_blank">Avenida Alvear 1661, Buenos Aires, Argentina</a></div></section><section class="day-section dinner-section"><div class="event-time">8:00 PM</div><h3>Dinner: Campobravo Puerto Madero <span class="status-pill">Confirmed</span></h3><div class="quick-links"><a href="https://drive.google.com/file/d/14DoeuW2ZLfr0154PIoYxcs_M7MOE7PMS/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">Reserved for two • Salón (indoor seating).</div><div class="detail-line">Arrival grace period: 15 minutes.</div><div class="detail-line">Confirm sin TACC options with staff; the reservation email does not display dietary notes.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Campobravo%20Puerto%20Madero%20Pierina%20Dealessi%20340%20Buenos%20Aires" rel="noopener" target="_blank">Pierina Dealessi 340, Puerto Madero</a><a href="https://wokiapp.com/reservas/campobravo-puerto-madero" rel="noopener" target="_blank">Restaurant / menu</a></div></section><details class="day-options"><summary>Optional ideas (2)</summary><section class="day-section"><div class="event-time">After dropping bags · Early afternoon</div><h3>San Telmo Sunday market<span class="status-pill optional">Optional</span></h3><div class="detail-line"><a href="https://www.google.com/maps/search/?api=1&amp;query=Coffee%20Town%20Bol%C3%ADvar%20976%20Buenos%20Aires" target="_blank" rel="noopener">Coffee Town</a> · Inside the covered market.</div><div class="detail-line">Dasha rec</div><div class="detail-line">Alternative to lunch at Chuí: have lunch in San Telmo and browse the antiques stalls around Plaza Dorrego and Calle Defensa. Fair hours: 10 AM–5 PM.</div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Plaza+Dorrego+San+Telmo+Buenos+Aires" target="_blank" rel="noopener">Map</a><a href="https://feriadesantelmo.com/planea-tu-visita/" target="_blank" rel="noopener">Market details</a></div></section><section class="day-section"><div class="event-time">1:30–2:00 PM · Mosko Suggestions</div><h3>Lunch at Chuí<span class="status-pill optional">Optional</span></h3><div class="detail-line">After dropping bags at the Hyatt. Look for GF markings on the menu.</div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Chu%C3%AD%20Loyola%201250%2C%20Buenos%20Aires" target="_blank" rel="noopener">Map</a><a href="https://chui.com.ar/en" target="_blank" rel="noopener">Menu</a></div></section></details></div></details><details class="day-card" data-date="2026-11-30" id="day3"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">NOV 30</span><span class="day-weekday">Monday</span></span><span class="day-summary-title">Fly to Patagonia</span></span></summary><div class="day-inner"><h2 class="day-heading">Fly to Patagonia</h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><section class="day-section"><div class="event-time">10:30 AM</div><h3>Reserved Uber: Park Hyatt to AEP</h3><div class="detail-line">Pickup at Palacio Duhau for the 12:50 PM flight.</div></section><section class="day-section"><div class="event-time">Morning</div><h3>Park Hyatt → AEP</h3><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Aeroparque%20Jorge%20Newbery%20Buenos%20Aires" rel="noopener" target="_blank">Airport location</a><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Aeroparque%20Jorge%20Newbery%20Buenos%20Aires" target="_blank" rel="noopener">Directions to AEP</a></div></section><section class="day-section"><div class="event-time">12:50–4:10 PM</div><h3>AR1898 · AEP → FTE</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1uqsQHlN9jqoefDFie5-Br7Cv-5oR4-Yi/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="quick-links"><a href="https://www.aerolineas.com.ar/chequea-el-estado-de-tu-reserva-y-vuelo" target="_blank" rel="noopener">Flight status</a><a href="https://www.aerolineas.com.ar/es-mx/franquicia-de-equipaje?tab=restringidos" target="_blank" rel="noopener">Baggage allowance</a></div></section><section class="day-section"><div class="event-time">After arrival</div><h3>Check in: Patagonia Queen Hotel Boutique</h3><div class="detail-line">FTE airport → hotel transfer requested from Amayco for AR1898 arriving 4:10 PM on Nov 30.</div><div class="quick-links"><a href="https://drive.google.com/file/d/1oK_198cXVI6cHjFnosJjdvrMQXXPe9Hc/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Av.%20Padre%20Agostini%2049%2C%20El%20Calafate%2C%20Argentina" rel="noopener" target="_blank">Av. Padre Agostini 49, El Calafate, Argentina</a></div></section><section class="day-section"><div class="event-time">Around 6 PM · Before dinner</div><h3>Confirm packed lunches for tomorrow’s glacier hike</h3><div class="detail-line">Arrange two lunches, one sin TACC, and water for both. Pick up at Casa Raíz (Av. del Libertador 924, listed Monday closing time 8 PM), or order from Enjoy Eat and confirm delivery to Patagonia Queen by 7 AM before the 7:30 AM pickup.</div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Patagonia+Queen+Hotel+Boutique,+El+Calafate&amp;destination=Casa+Raiz,+Av.+del+Libertador+924,+El+Calafate&amp;travelmode=walking" target="_blank" rel="noopener">Walk to Casa Raíz</a><a href="https://tienda.enjoyeat.com.ar/" target="_blank" rel="noopener">Order from Enjoy Eat</a></div></section><details class="day-options"><summary>Optional ideas (1)</summary><section class="day-section"><div class="event-time">Before airport pickup</div><h3>Coffee stop</h3><div class="detail-line"><a href="https://www.google.com/maps/search/?api=1&amp;query=flat%26white%20Cerrito%201224%20Buenos%20Aires" target="_blank" rel="noopener">flat&amp;white</a> · Espresso; matcha latte reported.</div></section></details></div></details><details class="day-card" data-date="2026-12-01" id="day4"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 1</span><span class="day-weekday">Tuesday</span></span><span class="day-summary-title">Perito Moreno Glacier</span></span></summary><div class="day-inner"><h2 class="day-heading">Perito Moreno Glacier<small>Hielo &amp; Aventura Minitrekking day</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><div class="note-strip">Park admission purchased: 3-day Los Glaciares Flexipasses for both travelers. First visit today; bring saved tickets and valid passports.</div><div class="quick-links"><a href="https://drive.google.com/file/d/1edIKFsyZBXqDJPZOM3Q1dYz3-xC3eoA7/view?usp=drivesdk" rel="noopener" target="_blank">Open park passes &amp; barcode</a></div><p class="trip-keyline">Private Google Drive PDF · shared with both travelers; sign in to your authorized Google account. Save it offline before visiting the park; the ticket barcode is in the original PDF.</p><section class="day-section"><div class="event-time">7:30 AM</div><h3>Minitrekking hotel pickup</h3><div class="quick-links"><a href="https://drive.google.com/file/d/17MxUy1AHaOsMYrz8Y07Nn6cqrwE9c_0R/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">Hielo &amp; Aventura •  two passengers.</div><div class="detail-line">Park admission purchased separately: covered by your 3-day Flexipasses.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Patagonia%20Queen%20Hotel%20Boutique%20El%20Calafate" rel="noopener" target="_blank">Location</a><a href="https://ventaweb.apn.gob.ar/" target="_blank" rel="noopener">Park tickets</a></div></section><section class="day-section"><div class="event-time">All day</div><h3>Perito Moreno Glacier + walkways</h3><div class="detail-list"><div class="detail-line">Waterproof layers and gloves required.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Glaciar%20Perito%20Moreno%20Parque%20Nacional%20Los%20Glaciares" rel="noopener" target="_blank">Trail location</a><a href="https://ventaweb.apn.gob.ar/" rel="noopener" target="_blank">Park admission</a></div></section></div></details><details class="day-card" data-date="2026-12-02" id="day5"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 2</span><span class="day-weekday">Wednesday</span></span><span class="day-summary-title">Road Trip to Chaltén Camp</span></span></summary><div class="day-inner"><h2 class="day-heading">Road trip to Chaltén Camp<small>El Calafate → El Chaltén • The Asadores dinner</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><section class="day-section"><div class="event-time">10:30 AM</div><h3>Huemul private pickup • Patagonia Queen<span class="status-pill">Booked</span></h3><div class="quick-links"><a href="https://drive.google.com/file/d/11nrIqd9V7nUwGBmhLazP-EjE-aO6FXCN/view?usp=drivesdk" rel="noopener" target="_blank">WhatsApp booking reference</a></div><div class="detail-list"><div class="detail-line">Confirmed for two, including camp gravel road. Pay USD 200 cash to the driver.</div><div class="detail-line">La Leona stop; Fitz Roy viewpoint stop.</div><div class="detail-line">Luggage fits comfortably; front passenger seat available.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Patagonia%20Queen%20Hotel%20Boutique%20El%20Calafate" rel="noopener" target="_blank">Location</a></div></section><section class="day-section"><div class="event-time">Afternoon · Estimated</div><h3>Check in: Chaltén Camp</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1dhZ_RTGowOlfle7f2Pk0TrQ2zD4Gs1aj/view?usp=drivesdk" rel="noopener" target="_blank">Payment receipt</a></div><div class="quick-links"><a href="https://drive.google.com/file/d/1f9stuE387bSvCkFU7-FzMwfJ5HokFTKp/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">Chaltén Camp · Dec 2–5.</div><div class="detail-line">Full-board package paid.</div><div class="detail-line">Camp confirmed gluten-free meals and packed hiking lunches for Dec 3 and 4. Staff start the fire and guests tend it overnight. Camp notified of Dec 2 dinner offsite.</div><div class="detail-line">Bring passports: camp will photograph them at check-in. Double bed confirmed; domes have wood-burning fireplaces; extra blankets requested and noted.</div></div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Camino%20Cementerio%20S%2FN%2C%20Z9301%20El%20Chalt%C3%A9n%2C%20Argentina" rel="noopener" target="_blank">Camino Cementerio S/N, Z9301 El Chaltén, Argentina</a></div></section><section class="day-section"><div class="event-time">6:00 PM · Recommended departure</div><h3>Chaltén Camp → The Asadores<span class="status-pill">Booked</span></h3><div class="detail-list"><div class="detail-line">Huemul booked: USD 40 cash round trip for two.</div></div></section><section class="day-section"><div class="event-time">6:30 PM</div><h3>Dinner: The Asadores</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1i4KtXXLLnP6_uq36Kq0wgEs8bim81us8/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">Reserved for two.</div><div class="detail-line">Free cancellation until Dec 1, 6:29 PM local time, per booking.</div><div class="detail-line">Return to camp included; coordinate pickup after dinner on WhatsApp.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=The%20Asadores%20El%20Chalten%20Argentina" rel="noopener" target="_blank">Restaurant location</a></div></section></div></details><details class="day-card" data-date="2026-12-03" id="day6"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 3</span><span class="day-weekday">Thursday</span></span><span class="day-summary-title">Fitz Roy: Laguna de los Tres</span></span></summary><div class="day-inner"><h2 class="day-heading">Fitz Roy: Laguna de los Tres<small>Hike A / B • swap with Dec 4 for best weather</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><div class="note-strip">Park admission covered by purchased 3-day Flexipasses; bring saved tickets and valid passports. Review the forecast with Huemul the day before; coordinate Dec 3/4 changes on WhatsApp with about 24 hours’ notice. Avoid final ascent in unsafe wind or ice.</div><div class="quick-links"><a href="https://drive.google.com/file/d/1edIKFsyZBXqDJPZOM3Q1dYz3-xC3eoA7/view?usp=drivesdk" rel="noopener" target="_blank">Open park passes &amp; barcode</a></div><p class="trip-keyline">Private Google Drive PDF · shared with both travelers; sign in to your authorized Google account. Save it offline before visiting the park; the ticket barcode is in the original PDF.</p><section class="day-section"><div class="event-time">Early morning</div><h3>Packed breakfast / lunch and trail conditions</h3><div class="detail-list"><div class="detail-line">Camp packed lunch: sin TACC requested; explicit confirmation pending.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Chalten%20Camp%20El%20Chalten%20Argentina" rel="noopener" target="_blank">Trail location</a></div></section><section class="day-section"><div class="event-time">Early morning · Time TBD</div><h3>Transfer to Río Eléctrico trailhead<span class="status-pill">Booked</span></h3><div class="quick-links"><a href="https://drive.google.com/file/d/11nrIqd9V7nUwGBmhLazP-EjE-aO6FXCN/view?usp=drivesdk" rel="noopener" target="_blank">WhatsApp booking reference</a></div><div class="detail-list"><div class="detail-line">Booked for two: USD 50 cash to the trailhead; USD 20 for the return from town.</div><div class="detail-line">Route ends in El Chaltén town.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Puente%20Rio%20Electrico%20El%20Chalten" rel="noopener" target="_blank">Trail location</a></div></section><section class="day-section"><div class="event-time">Full day • 8–11 hours</div><h3>Laguna de los Tres via Piedras Blancas</h3><div class="detail-list"><div class="detail-line">Distance: approximately 12–14 miles. Steep final ascent.</div><div class="detail-line">Equipment: layers, poles, water, offline map.</div><div class="detail-line">Via Laguna Capri to El Chaltén.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Laguna%20de%20los%20Tres%20El%20Chalten" rel="noopener" target="_blank">Trail location</a><a href="https://www.alltrails.com/trail/argentina/santa-cruz/el-pilar-laguna-de-los-tres-el-chalten" rel="noopener" target="_blank">AllTrails point-to-point</a></div></section><section class="day-section"><div class="event-time">Late afternoon / evening</div><h3>Pickup in town → Chaltén Camp<span class="status-pill">Booked</span></h3><div class="detail-list"><div class="detail-line">Huemul return booked: USD 20 cash for two. Agree meeting point and time on WhatsApp.</div></div></section></div></details><details class="day-card" data-date="2026-12-04" id="day7"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 4</span><span class="day-weekday">Friday</span></span><span class="day-summary-title">Laguna Torre</span></span></summary><div class="day-inner"><h2 class="day-heading">Laguna Torre<small>Hike B / A • swap with Dec 3 for weather</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><div class="note-strip">Park admission covered by purchased 3-day Flexipasses; bring saved tickets and valid passports. Review the forecast with Huemul the day before; coordinate swaps on WhatsApp with about 24 hours’ notice.</div><div class="quick-links"><a href="https://drive.google.com/file/d/1edIKFsyZBXqDJPZOM3Q1dYz3-xC3eoA7/view?usp=drivesdk" rel="noopener" target="_blank">Open park passes &amp; barcode</a></div><p class="trip-keyline">Private Google Drive PDF · shared with both travelers; sign in to your authorized Google account. Save it offline before visiting the park; the ticket barcode is in the original PDF.</p><section class="day-section"><div class="event-time">Morning</div><h3>Trailhead ride from Chaltén Camp<span class="status-pill">Booked</span></h3><div class="quick-links"><a href="https://drive.google.com/file/d/11nrIqd9V7nUwGBmhLazP-EjE-aO6FXCN/view?usp=drivesdk" rel="noopener" target="_blank">WhatsApp booking reference</a></div><div class="detail-list"><div class="detail-line">Huemul booked: USD 35 cash round trip for two. Coordinate pickup times on WhatsApp.</div></div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Camino%20Cementerio%20S%2FN%2C%20Z9301%20El%20Chalt%C3%A9n%2C%20Argentina" rel="noopener" target="_blank">Camino Cementerio S/N, Z9301 El Chaltén, Argentina</a></div></section><section class="day-section"><div class="event-time">Daytime • ~7–9 hours</div><h3>Hike to Laguna Torre</h3><div class="detail-list"><div class="detail-line">Approximately 11 miles round-trip from town depending on start point.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Laguna%20Torre%20El%20Chalten" rel="noopener" target="_blank">Trail location</a><a href="https://www.alltrails.com/search?q=Laguna%20Torre%20El%20Chalten" rel="noopener" target="_blank">AllTrails search</a></div></section><section class="day-section"><div class="event-time">After hike</div><h3>Return transfer to Chaltén Camp<span class="status-pill">Booked</span></h3><div class="detail-list"><div class="detail-line">Return to camp included in the USD 35 fare; pickup time to be coordinated.</div></div></section><section class="day-section"><div class="event-time">Evening</div><h3>Dinner at Chaltén Camp</h3></section></div></details><details class="day-card" data-date="2026-12-05" id="day8"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 5</span><span class="day-weekday">Saturday</span></span><span class="day-summary-title">Back to El Calafate</span></span></summary><div class="day-inner"><h2 class="day-heading">Back to El Calafate<small>Chaltén Camp → Ayres de Calafate</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><section class="day-section"><div class="event-time">10:00–10:30 AM</div><h3>Huemul pickup • Chaltén Camp<span class="status-pill">Booked</span></h3><div class="quick-links"><a href="https://drive.google.com/file/d/11nrIqd9V7nUwGBmhLazP-EjE-aO6FXCN/view?usp=drivesdk" rel="noopener" target="_blank">WhatsApp booking reference</a></div><div class="detail-list"><div class="detail-line">Confirmed return transfer for two. Pay USD 200 cash to the driver.</div><div class="detail-line">Cash payment on the day; no advance payment scheduled.</div></div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Camino%20Cementerio%20S%2FN%2C%20Z9301%20El%20Chalt%C3%A9n%2C%20Argentina" rel="noopener" target="_blank">Pickup location</a></div></section><section class="day-section"><div class="event-time">Afternoon · Estimated</div><h3>Arrival in El Calafate</h3><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Ayres%20de%20Calafate%20Hotel%20Boutique" rel="noopener" target="_blank">Location</a></div></section><section class="day-section"><div class="event-time">Afternoon</div><h3>Check in: Ayres de Calafate</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1tpYdvCwUv6mySJCiy8EVIxf-ByuADBrh/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">Ayres de Calafate · Dec 5–6.</div></div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Freile%202197%2C%20El%20Calafate%2C%20Argentina" rel="noopener" target="_blank">Freile 2197, El Calafate, Argentina</a></div></section></div></details><details class="day-card" data-date="2026-12-06" id="day9"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 6</span><span class="day-weekday">Sunday</span></span><span class="day-summary-title">Return to Buenos Aires</span></span></summary><div class="day-inner"><h2 class="day-heading">Return to Buenos Aires<small>El Calafate → Aeroparque • Casa Joseph</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><section class="day-section"><div class="event-time">Morning</div><h3>Leave hotel for FTE airport<span class="status-pill pending">Pending</span></h3><div class="detail-line">Ayres confirmed a Renault Duster fits both travelers and their luggage with the front seat available. Suggested hotel pickup: 9:00–9:15 AM for AR1841 at 11:30 AM. Booking pending.</div><div class="detail-line">Quote for both: about USD 33 at the Nov 19 conversion (ARS 51,000). December fare pending. Cash or transfer; card adds 10%.</div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Aeropuerto%20Internacional%20Comandante%20Armando%20Tola%20El%20Calafate" rel="noopener" target="_blank">Airport location</a></div></section><section class="day-section"><div class="event-time">11:30 AM–2:30 PM</div><h3>AR1841 • FTE → AEP</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1uqsQHlN9jqoefDFie5-Br7Cv-5oR4-Yi/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Aeroparque%20Jorge%20Newbery" rel="noopener" target="_blank">Airport location</a><a href="https://www.aerolineas.com.ar/chequea-el-estado-de-tu-reserva-y-vuelo" target="_blank" rel="noopener">Flight status</a><a href="https://www.aerolineas.com.ar/es-mx/franquicia-de-equipaje?tab=restringidos" target="_blank" rel="noopener">Baggage rules</a></div></section><section class="day-section"><div class="event-time">Afternoon</div><h3>Check in: Casa Joseph</h3><div class="detail-line">Studio for two · Dec 6–8 · accommodation only. USD 339.76 outstanding; no advance payment recorded.</div><div class="quick-links"><a href="https://drive.google.com/file/d/1MLBkIER7HR6nK867qUAg71fO0uLJxMtv/view?usp=drivesdk" rel="noopener" target="_blank">Original booking voucher</a></div><div class="detail-line">Check-in 3:00 PM; checkout 10:00 AM. Hotel confirmed credit card payment at check-in, charged in USD with no additional fee. Cash in USD or Argentine pesos also accepted.</div><div class="detail-line">Flexible cancellation until 48 hours before check-in (Dec 4, 3:00 PM local); within 48 hours the hotel may charge one night.</div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Charcas%204600%2C%20Palermo%2C%20Buenos%20Aires%2C%20Argentina" rel="noopener" target="_blank">Charcas 4600, Palermo, Buenos Aires, Argentina</a></div></section><section class="day-section"><div class="event-time">7:00 PM</div><h3>Dinner: Niño Gordo</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1h4eMcqVNKoWxWu0PCRoR-pEOBv1wd6bS/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">Reserved for two.</div><div class="detail-line">Thames 1810, Palermo.</div><div class="detail-line">Gluten-free restriction noted; verify sauces.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Nino%20Gordo%20Thames%201810%20Buenos%20Aires" rel="noopener" target="_blank">Airport location</a></div></section><details class="day-options"><summary>Optional ideas (1)</summary><section class="day-section"><div class="event-time">Before dinner · Time depends on tasting availability · Mosko Suggestions</div><h3>Wine at Pain et Vin<span class="status-pill optional">Optional</span></h3><div class="detail-line">Check tasting availability and duration before booking around your 7 PM dinner.</div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Pain%20et%20Vin%20Guatemala%204364%2C%20Buenos%20Aires" target="_blank" rel="noopener">Map</a><a href="https://pain-et-vin.com/" target="_blank" rel="noopener">Wine tastings</a></div></section></details></div></details><details class="day-card" data-date="2026-12-07" id="day10"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 7</span><span class="day-weekday">Monday</span></span><span class="day-summary-title">Buenos Aires Free Day</span></span></summary><div class="day-inner"><h2 class="day-heading">Buenos Aires free day<small>Palermo + neighborhoods • El Preferido dinner</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><section class="day-section"><div class="event-time">7:00 PM</div><h3>Dinner: El Preferido de Palermo</h3><div class="detail-line">Mosko Suggestions · Confirmed reservation.</div><div class="quick-links"><a href="https://drive.google.com/file/d/1DaljVlqYUiq9dw_T5kZ0cJZNHYqJ1GzE/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">Indoor reservation for two.</div><div class="detail-line">Jorge Luis Borges 2108.</div><div class="detail-line">Gluten-free note included in reservation.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=El%20Preferido%20de%20Palermo%20Jorge%20Luis%20Borges%202108%20Buenos%20Aires" rel="noopener" target="_blank">Restaurant location</a></div><div class="quick-links"><a href="https://es.restaurantguru.com/El-Preferido-Buenos-Aires/menu" target="_blank" rel="noopener">Menu photos</a></div></section><details class="day-options"><summary>Optional ideas (5)</summary><section class="day-section"><div class="event-time">Morning</div><h3>Coffee and breakfast in Palermo<span class="status-pill optional">Optional</span></h3><div class="detail-line"><a href="https://www.google.com/maps/search/?api=1&amp;query=Seattle%20Caf%C3%A9%20Charcas%204625%20Buenos%20Aires" target="_blank" rel="noopener">Seattle Café</a> · Flat whites on the hotel block.</div></section><section class="day-section"><div class="event-time">Daytime</div><h3>Explore Palermo / Recoleta<span class="status-pill optional">Optional</span></h3></section><section class="day-section"><div class="event-time">Afternoon in Palermo Soho · Mosko Suggestions</div><h3>Debarricas and Isaac Katz<span class="status-pill optional">Optional</span></h3><div class="detail-line">Browse Argentine wines at Debarricas and jewelry at Isaac Katz. Verify the jewelry shop address before heading over.</div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=DeBarricas%20Av%20Dorrego%202085%2C%20Buenos%20Aires" target="_blank" rel="noopener">DeBarricas map</a><a href="https://debarricas.com.ar/" target="_blank" rel="noopener">Wine shop</a><a href="https://www.google.com/maps/search/?api=1&amp;query=Isaac%20Katz%20Joyer%C3%ADa%20Palermo%2C%20Buenos%20Aires" target="_blank" rel="noopener">Isaac Katz map</a><a href="https://joyerianobel.com.ar/joyeria/isaac-katz/" target="_blank" rel="noopener">Jewelry shop details</a></div></section><section class="day-section"><div class="event-time">Around 5:30 PM · Mosko Suggestions</div><h3>Vermouth at Bilbao<span class="status-pill optional">Optional</span></h3><div class="detail-line">Check opening hours before heading over for a pre-dinner drink.</div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Bilbao%20Thames%201795%2C%20Buenos%20Aires" target="_blank" rel="noopener">Map</a><a href="https://bilbao.cartadigitalya.com/" target="_blank" rel="noopener">Menu &amp; drinks</a></div></section><section class="day-section"><div class="event-time">7:15 PM · Dinner alternative · Mosko Suggestions</div><h3>Anchoíta<span class="status-pill optional">Optional</span></h3><div class="detail-line">Only if your El Preferido plans change. The Moskos suggest joining the walk-in line by 7:15 PM.</div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Ancho%C3%ADta%20Juan%20Ram%C3%ADrez%20de%20Velasco%201520%2C%20Buenos%20Aires" target="_blank" rel="noopener">Map</a><a href="https://menu.anchoita.com.ar/" target="_blank" rel="noopener">Menu</a></div></section></details></div></details><details class="day-card" data-date="2026-12-08" id="day11"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 8</span><span class="day-weekday">Tuesday</span></span><span class="day-summary-title">Last Day in Buenos Aires</span></span></summary><div class="day-inner"><h2 class="day-heading">Last day in Buenos Aires<small>Evening departure from EZE</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><section class="day-section"><div class="event-time">10:00 AM</div><h3>Check out: Casa Joseph</h3><div class="detail-line">Free luggage storage confirmed after checkout on Dec 8 until departure for the airport that evening.</div><div class="quick-links"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Charcas%204600%2C%20Palermo%2C%20Buenos%20Aires%2C%20Argentina" rel="noopener" target="_blank">Charcas 4600, Palermo, Buenos Aires, Argentina</a></div></section><section class="day-section"><div class="event-time">Evening · Timing TBD</div><h3>Leave for EZE airport</h3><div class="detail-list"><div class="detail-line">Flight departure: 10:05 PM. Arrange the airport transfer for this earlier departure.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Aeropuerto%20Internacional%20Ministro%20Pistarini%20Ezeiza" rel="noopener" target="_blank">Airport location</a></div></section><section class="day-section"><div class="event-time">10:05 PM</div><h3>UA818 • EZE → IAH</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1j1jN8uXjz17DHbzaOj1Xdx6PkiPYNeFC/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">IAH arrival: Dec 9, 5:20 AM. United Premium Plus • seats 22D / 22E.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Aeropuerto%20Internacional%20Ministro%20Pistarini%20Ezeiza" rel="noopener" target="_blank">Airport location</a><a href="https://www.united.com/en/us/flightstatus" target="_blank" rel="noopener">Flight status</a></div></section><details class="day-options"><summary>Optional ideas (1)</summary><section class="day-section"><div class="event-time">Morning</div><h3>Coffee stop</h3><div class="detail-line"><a href="https://www.google.com/maps/search/?api=1&amp;query=Cuervo%20Soho%20El%20Salvador%204580%20Buenos%20Aires" target="_blank" rel="noopener">Cuervo Soho</a> · House-roasted filter coffee. Matcha option: <a href="https://www.google.com/maps/search/?api=1&amp;query=Cuervo%20Palermo%20OFF%20Arenales%203339%20Buenos%20Aires" target="_blank" rel="noopener">Cuervo Palermo OFF</a>.</div></section></details></div></details><details class="day-card" data-date="2026-12-09" id="day12"><summary><span class="day-summary-grid"><span class="day-summary-date"><span class="day-date-label">DEC 9</span><span class="day-weekday">Wednesday</span></span><span class="day-summary-title">Birthday Homecoming 🎂</span></span></summary><div class="day-inner"><h2 class="day-heading">Birthday homecoming 🎉<small>Houston → O’Hare → Midway → Denver</small></h2><div class="day-weather"><span></span> · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div><div class="note-strip"><b>🎂 December 9: Birthday.</b></div><section class="day-section"><div class="event-time">5:20 AM</div><h3>Arrive Houston IAH</h3><div class="detail-list"><div class="detail-line">Houston connection: 2 hours. Complete U.S. entry formalities and baggage recheck before the next flight.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=George%20Bush%20Intercontinental%20Airport%20Houston" rel="noopener" target="_blank">Airport location</a></div></section><section class="day-section"><div class="event-time">7:20–10:10 AM</div><h3>UA547 • IAH → ORD</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1j1jN8uXjz17DHbzaOj1Xdx6PkiPYNeFC/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">United Economy • seats 14D / 14F.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Chicago%20O%E2%80%99Hare%20International%20Airport" rel="noopener" target="_blank">Airport location</a><a href="https://www.united.com/en/us/flightstatus" target="_blank" rel="noopener">Flight status</a></div></section><section class="day-section"><div class="event-time">10:10 AM–5:05 PM</div><h3>Transfer from O’Hare to Midway<span class="status-pill pending">Pending</span></h3><div class="detail-list"><div class="detail-line">Coordinating ORD → MDW transportation with family; final details pending.</div><div class="detail-line">ORD arrival to MDW departure: 6 hr 55 min.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Chicago%20Midway%20International%20Airport" rel="noopener" target="_blank">Location</a></div></section><section class="day-section"><div class="event-time">5:05–6:50 PM</div><h3>Southwest 2931 • MDW → DEN</h3><div class="quick-links"><a href="https://drive.google.com/file/d/1r0mGhpC1nZr8dC41MG21NtrEePtFs3dx/view?usp=drivesdk" rel="noopener" target="_blank">Booking document</a></div><div class="detail-list"><div class="detail-line">Seats: 28F / 28D. Updated schedule confirmed by Southwest.</div></div><div class="quick-links"><a href="https://www.google.com/maps/search/?api=1&amp;query=Denver%20International%20Airport" rel="noopener" target="_blank">Airport location</a></div></section></div></details><div class="footer">Argentina + Patagonia • Pocket Field Guide v2 • Nov 28–Dec 9, 2026</div></main>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+ const cards=Array.from(document.querySelectorAll('details.day-card'));
+ const nav=document.querySelector('header nav');
+ const buttons=Array.from(document.querySelectorAll('header nav a[data-day]'));
+ const dateStr=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Argentina/Buenos_Aires',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+ let today=dateStr;
+ // Certain browsers do not emit ISO with en-CA; build the date reliably from parts.
+ const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Argentina/Buenos_Aires',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+ const get=(type)=>parts.find(x=>x.type===type)?.value||'';
+ today=get('year')+'-'+get('month')+'-'+get('day');
+ const dayDate=cards.map(c=>c.dataset.date);
+ const currentIndex=dayDate.indexOf(today);
+ function showDay(id,doScroll){
+  const card=document.getElementById(id);if(!card)return;
+  cards.forEach(c=>c.open=(c===card));
+  buttons.forEach(b=>b.classList.toggle('active',b.dataset.day===id));
+  if(doScroll)card.scrollIntoView({block:'start',behavior:'smooth'});
+ }
+ nav?.addEventListener('click',e=>{
+  const a=e.target.closest('a[data-day]');if(!a)return;
+  e.preventDefault();showDay(a.dataset.day,true);
+  try{history.replaceState(null,'','#'+a.dataset.day)}catch(e){}
+ });
+ cards.forEach(c=>c.addEventListener('toggle',()=>{
+  if(!c.open)return;
+  cards.forEach(other=>{if(other!==c)other.open=false});
+  buttons.forEach(b=>b.classList.toggle('active',b.dataset.day===c.id));
+ }));
+ const toggle=document.getElementById('themeToggle');
+ let saved=null;
+ try { saved=localStorage.getItem('argentina-theme'); } catch(e) {}
+ if(saved==='dark'){document.body.classList.add('dark');toggle?.setAttribute('aria-pressed','true')}
+ toggle?.addEventListener('click',()=>{
+  const dark=document.body.classList.toggle('dark');
+  toggle.setAttribute('aria-pressed',dark?'true':'false');
+  try { localStorage.setItem('argentina-theme',dark?'dark':'light'); } catch(e) {}
+ });
+ const hash=location.hash.slice(1);
+ const target=cards.some(c=>c.id===hash)?hash:('day'+(currentIndex<0? (today<dayDate[0]?1:dayDate.length):currentIndex+1));
+ showDay(target,false);
+ cards.forEach(c=>{if(c.dataset.date<today)c.classList.add('is-past')});
+ const fill=document.getElementById('tripProgressFill');
+ const label=document.getElementById('tripProgressLabel');
+ const pct=today<dayDate[0]?0:today>dayDate.at(-1)?100:Math.round((currentIndex+1)/cards.length*100);
+ if(fill)fill.style.width=pct+'%';
+ if(label)label.textContent=today<dayDate[0]?'Trip begins Nov 28':today>dayDate.at(-1)?'Trip complete':('Day '+(currentIndex+1)+' of '+cards.length);
+});
+</script><script>
+document.addEventListener('DOMContentLoaded',function(){
+ const link=document.querySelector('header nav [data-panel="trip-notes"]');
+ const panel=document.getElementById('trip-notes');
+ if(link&&panel){
+   link.addEventListener('click',function(e){
+     e.preventDefault();
+     const open=panel.classList.toggle('notes-open');
+     link.classList.toggle('active',open);
+   });
+ }
+ document.querySelectorAll('header nav [data-day]').forEach(a=>{
+   a.addEventListener('click',function(){
+     if(panel) panel.classList.remove('notes-open');
+     if(link) link.classList.remove('active');
+   });
+ });
+});
+</script><script>
+document.addEventListener('DOMContentLoaded',function(){
+  const link=document.querySelector('header nav [data-panel="trip-notes"]');
+  const panel=document.getElementById('trip-notes');
+  if(!link||!panel)return;
+  link.addEventListener('click',function(e){
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    const willOpen=!panel.classList.contains('notes-open');
+    panel.classList.toggle('notes-open',willOpen);
+    link.classList.toggle('active',willOpen);
+    if(willOpen) panel.scrollIntoView({block:'nearest'});
+  },true);
+},true);
+</script><script>
+document.addEventListener('DOMContentLoaded',function(){
+  const close=document.getElementById('tripNotesClose');
+  const panel=document.getElementById('trip-notes');
+  const link=document.querySelector('header nav [data-panel="trip-notes"]');
+  if(close && panel){
+    close.addEventListener('click',function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      panel.classList.remove('notes-open');
+      if(link) link.classList.remove('active');
+    });
+  }
+});
+</script><script>
+/* Home Screen app update checker. A re-opened iOS standalone app can resume a cached document. */
+(function(){
+ const ownBuild=document.querySelector('meta[name="app-build"]')?.content||'';
+ let lastChecked=0,active=false;
+ function status(t){const el=document.getElementById('appUpdateStatus');if(el)el.textContent=t;}
+ async function check(force){
+   if(active||(!force&&Date.now()-lastChecked<90000))return;
+   if(!navigator.onLine){if(force)status('Offline: showing your saved version.');return;}
+   active=true;lastChecked=Date.now();
+   if(force)status('Checking for the latest itinerary…');
+   try{
+     const url=new URL(window.location.pathname,window.location.origin);
+     url.searchParams.set('_check',String(Date.now()));
+     const response=await fetch(url.toString(),{cache:'no-store',credentials:'same-origin'});
+     if(!response.ok)throw Error('HTTP '+response.status);
+     const source=await response.text();
+     const match=source.match(/<meta name="app-build" content="([^"]+)">/);
+     const remoteBuild=match?.[1]||'';
+     if(remoteBuild&&remoteBuild!==ownBuild){
+       status('Update found. Loading…');
+       const next=new URL(window.location.href);
+       next.searchParams.set('_updated',String(Date.now()));
+       window.location.replace(next.toString());
+       return;
+     }
+     status('You have the latest itinerary.');
+   }catch(e){if(force)status('Could not check. Try again with an internet connection.');}
+   finally{active=false;}
+ }
+ document.addEventListener('DOMContentLoaded',function(){
+   document.getElementById('refreshItinerary')?.addEventListener('click',()=>check(true));
+   check(false);
+ });
+ document.addEventListener('visibilitychange',function(){if(!document.hidden)check(false);});
+ window.addEventListener('pageshow',function(){check(false);});
+})();
+</script><script>
+(() => {
+  const places = [
+    ['Chicago',41.98,-87.91], ['Buenos Aires',-34.59,-58.39],
+    ['El Calafate',-50.34,-72.27], ['Perito Moreno Glacier',-50.47,-73.05],
+    ['El Chaltén',-49.33,-72.89], ['Laguna de los Tres',-49.28,-72.99],
+    ['Laguna Torre',-49.33,-73.02], ['Denver',39.86,-104.67]
+  ];
+  const itinerary = [0,1,2,3,4,5,6,2,1,1,1,7];
+  const forecasts = new Map();
+  async function show(card, place) {
+    const [name, latitude, longitude] = places[place];
+    const line = card.querySelector('.day-weather span');
+    const date = card.dataset.date;
+    const zone = place === 0 ? 'America/Chicago' : place === 7 ? 'America/Denver' : 'America/Argentina/Buenos_Aires';
+    const today = new Intl.DateTimeFormat('en-CA', {timeZone:zone, year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+    const daysAhead = Math.round((Date.parse(date) - Date.parse(today))/86400000);
+    if (daysAhead < 0 || daysAhead > 15) {
+      line.textContent = name + (daysAhead < 0 ? ' · Forecast period ended' : ' · Forecast available closer to arrival');
+      return;
+    }
+    line.textContent = name + ' · Loading forecast…';
+    try {
+      let entry = forecasts.get(place);
+      if (!entry || Date.now() - entry.time > 3600000) {
+        const query = new URLSearchParams({latitude,longitude,timezone:zone,forecast_days:'16',temperature_unit:'fahrenheit',wind_speed_unit:'mph',daily:'temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_gusts_10m_max'});
+        const promise = fetch('https://api.open-meteo.com/v1/forecast?' + query, {cache:'no-store'}).then(response => {
+          if (!response.ok) throw Error('Forecast unavailable');
+          return response.json();
+        });
+        entry = {time:Date.now(),promise};
+        forecasts.set(place,entry);
+      }
+      const {daily} = await entry.promise;
+      const i = daily.time.indexOf(date);
+      const parts = [];
+      const high = daily.temperature_2m_max[i], low = daily.temperature_2m_min[i];
+      if (Number.isFinite(high) && Number.isFinite(low)) parts.push(Math.round(high)+'° / '+Math.round(low)+'°F');
+      const precip = daily.precipitation_probability_max[i], gust = daily.wind_gusts_10m_max[i];
+      if (Number.isFinite(precip)) parts.push(Math.round(precip)+'% precip.');
+      if (Number.isFinite(gust)) parts.push('gusts '+Math.round(gust)+' mph');
+      line.textContent = [name,...(parts.length ? parts : ['Forecast unavailable'])].join(' · ');
+    } catch {
+      forecasts.delete(place);
+      line.textContent = name + ' · Forecast unavailable';
+    }
+  }
+  document.getElementById('refreshItinerary')?.addEventListener('click', () => {
+    forecasts.clear();
+    itinerary.forEach((place,index) => {
+      const card = document.getElementById('day'+(index+1));
+      if (card.open) show(card,place);
+    });
+  });
+  itinerary.forEach((place,index) => {
+    const card = document.getElementById('day'+(index+1));
+    const refresh = () => { if (card.open) show(card,place); };
+    card.addEventListener('toggle',refresh);
+    refresh();
+  });
+})();
+</script></body></html>
